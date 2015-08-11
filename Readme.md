@@ -9,7 +9,7 @@ Small starter kit for electron apps.
 
 ## Testing
 - Unit tests: Mocha (electron flavour) and Sinon
-Run tests via ```electron-mocha  ./test --recursive```
+Run tests via ```./node_modules/.bin/electron-mocha  ./test --recursive```
 - Integration tests & E2E tests: TODO...
 
 ## Folder structure:

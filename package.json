@@ -5,7 +5,7 @@
   "repository": "git@github.com:sambou/electron-starter-kit.git",
   "main": "index.js",
   "scripts": {
-    "test": "electron-mocha  ./test --recursive"
+    "test": "./node_modules/.bin/electron-mocha  ./test --recursive"
   },
   "author": "Sami Boussaid <sboussaid3@gmail.com>",
   "license": "MIT",
