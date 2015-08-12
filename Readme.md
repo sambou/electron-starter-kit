@@ -25,5 +25,5 @@ Run tests via ```./node_modules/.bin/electron-mocha  ./test --recursive```
     ├── appContent
     └── webContent
         └── mainWeb.js
-└── index.js                // entry point for the application (see also package.json)
+└── main.js                // entry point for the application (see also package.json)
 ```

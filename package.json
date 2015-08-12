@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A vanilla starter kit for electron",
   "repository": "git@github.com:sambou/electron-starter-kit.git",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "./node_modules/.bin/electron-mocha  ./test --recursive"
   },
