@@ -4,7 +4,7 @@ Small starter kit for electron apps.
 
 ## Install instructions
 1. Prerequisites: you need to have installed electron on your system/Path: ```npm install electron-prebuilt -g```
-1. clone repository: ```git clone git@github.com:sambou/electron-starter-kit.git```
+1. clone repository: ```git clone --bare https://github.com/sambou/electron-starter-kit.git```
 1. run ```npm install```
 
 ## Testing
@@ -25,5 +25,5 @@ Run tests via ```./node_modules/.bin/electron-mocha  ./test --recursive```
     ├── appContent
     └── webContent
         └── mainWeb.js
-└── index.js                // entry point for the application (see also package.json)     
+└── index.js                // entry point for the application (see also package.json)
 ```
