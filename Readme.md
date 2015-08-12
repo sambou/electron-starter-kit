@@ -14,15 +14,16 @@ Run tests via ```./node_modules/.bin/electron-mocha  ./test --recursive```
 
 ## Folder structure:
 ```
+├── package.json
 ├── src
-│   ├── appContent         // contains modules for the main process (gets initialized in index.js)
+│   ├── appContent          // contains modules for the main process (gets initialized in index.js)
 │   │   └── application.js
-│   └── webContent         // contains modules for the rendering process (i.e. everything that gets run inside the browser windows)
+│   └── webContent          // contains modules for the rendering process (i.e. everything that gets run inside the browser windows)
 │       ├── index.html
 │       └── mainWeb.js
-└── test                   // unit tests...
-│   ├── appContent
-│   └── webContent
-│       └── mainWeb.js
-└── index.js               // entry point for the application (see also package.json)
+└── test
+    ├── appContent
+    └── webContent
+        └── mainWeb.js
+└── index.js                // entry point for the application (see also package.json)     
 ```
